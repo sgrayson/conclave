@@ -12,7 +12,7 @@ public class Application
 	{
 		SpeechToText transcriber = new SpeechToText();
 		//TODO: hide credentials
-		transcriber.setUsernameAndPassword("e0fd4c2d-8b12-488e-8298-46b0a9c55e91", "DK1XsTijmdye");
+		transcriber.setUsernameAndPassword("<user>", "<pass>");
 
 		RecognizeOptions options = new RecognizeOptions.Builder()
 				.contentType("audio/wav") //TODO: probably don't need this
